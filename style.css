@@ -1,0 +1,91 @@
+#race {
+  text-align: center;
+  background-color: #242021;
+}
+
+h1,
+h2,
+h3 {
+  color: #a2a2a2;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.raceTrack {
+  background-image: url("img/raceTrack.jpg");
+  background-repeat: repeat-x;
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  height: 250px;
+}
+#car1 {
+  display: block;
+  position: relative;
+  top: -200px;
+  width: 250px;
+  height: 250px;
+}
+
+#car2 {
+  display: block;
+  position: relative;
+  top: -60px;
+  width: 250px;
+  height: 250px;
+}
+
+.flagDisable {
+  display: none;
+}
+
+.flagEnable {
+  position: relative;
+  top: -450px;
+  width: 200px;
+  height: 150px;
+}
+.car1 {
+  color: #ffebf7 !important;
+}
+
+.car2 {
+  color: #ba0000 !important;
+}
+
+.carInfo,
+.previousRes {
+  border: 2px solid white;
+  padding: 10px;
+  color: white;
+}
+.countdown {
+  position: relative;
+  top: 175px;
+}
+
+#timer {
+  font-size: 70px;
+  color: white;
+}
+/*use these below*/
+/*car1 color*/
+/*color: #ffebf7;*/
+
+/*car2 color*/
+/*color: #ba0000;*/
